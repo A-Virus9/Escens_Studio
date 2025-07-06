@@ -1,11 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Escens Studio | Launching Soon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Clash+Grotesk:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green: #3E4E3B;
+      --beige: #F1E9E3;
+      --brown: #644F3F;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Clash Grotesk', sans-serif;
+      background: url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      width: 50px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+      text-align: center;
+      max-width: 520px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.6rem;
+      color: var(--brown);
+      margin-bottom: 0.8rem;
+    }
+
+    .studio-name {
+      font-family: 'Clash Grotesk', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--green);
+    }
+
+    .tagline {
+      font-size: 0.75rem;
+      letter-spacing: 0.5px;
+      color: var(--green);
+      margin-top: 0.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .caption {
+      font-size: 0.85rem;
+      margin-top: 1.5rem;
+      color: #5b4437;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .socials a {
+      font-size: 1.1rem;
+      color: var(--brown);
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+
+    .socials a:hover {
+      transform: scale(1.2);
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 1.5rem;
+      text-align: center;
+      width: 100%;
+      font-size: 0.8rem;
+      color: #4b3c33;
+    }
+  </style>
 </head>
 <body>
-    hi
+  <!-- Logo -->
+  <img class="logo" src="Logo.png" alt="Escens Logo" />
+
+  <!-- Center Card -->
+  <div class="card">
+    <div class="studio-name">Escens Studio</div>
+    <div class="tagline">CRAFTING SPACES, CREATING MEMORIES</div>
+    <h1 class="title">Launching Soon!</h1>
+    <div class="caption">Check out these till then :)</div>
+    <div class="socials">
+      <a href="#" title="LinkedIn">🔗</a>
+      <a href="#" title="Instagram">📸</a>
+      <a href="mailto:studio@escens.com" title="Email">✉️</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">Stay tuned!</div>
 </body>
 </html>
