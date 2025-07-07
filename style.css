@@ -104,31 +104,16 @@ body::after{
 }
 
 @media screen and (max-width: 900px) {
-    body{
-        padding: 4rem 2rem;
-    }
-    .logo{
-        width: 3rem;
-    }
-    .name{
-        font-size: 1.5rem;
-    }
-    .quote{
-        font-size: 1rem;
-    }
-    .launching{
-        font-size: 4rem;
-        width: 20rem;
-        line-height: 4rem;
-    }
-    .currently, .check{
-        font-size: 1.2rem;
-        width: 20rem;
+    html{
+        font-size: 40%;
     }
 }
 
 @media screen and (max-height: 750px) {
     .launching{
         margin-top: 10rem;
+    }
+    body{
+        padding: 4rem 2rem 10rem 4rem;
     }
 }
