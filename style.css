@@ -116,6 +116,10 @@ body::after{
     .currently{
         width: 45rem
     }
+    .launching{
+        width: 30rem;
+        font-size: 7rem;
+    }
 }
 
 @media screen and (max-height: 750px) {
