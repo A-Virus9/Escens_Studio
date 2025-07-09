@@ -114,11 +114,13 @@ body::after{
         font-size: 40%;
     }
     .currently{
-        width: 45rem
+        width: 30rem
     }
     .launching{
-        width: 30rem;
+        width: 35;
         font-size: 7rem;
+        line-height: 6rem;
+        word-wrap: wrap;
     }
 }
 
